@@ -21,11 +21,10 @@ ext {
     commonIoVersion = '2.5'
     jcraftJschVersion = '0.1.54'
     commonsCodecVersion = '1.10'
-    appVersion = "1.0.4"
 }
 
 war {
-    baseName = "delivery-pipeline-api-${appVersion}"
+    baseName = "ap-pipeline-api"
 }
 
 sourceCompatibility = 1.8
